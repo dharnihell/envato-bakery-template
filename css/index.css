@@ -20,9 +20,10 @@ html {
     height: 35px;
 }
 .landing-text {
-	/* display: table-cell; */
-	/* text-align: center; */
-    /* vertical-align: middle; */
+    padding-top: 5em;
+	display: table-cell; 
+	text-align: center; 
+    vertical-align: middle; 
     
 }
 .landing-text h1 {
@@ -31,6 +32,14 @@ html {
     line-height: 82px;
     
 }
+/*.btn .btn-default .btn-lg {
+    background-color: #00BF7A;
+}*/
+
+.btn {
+    background-color: #01C880 !important;
+}
+
 .padding {
 	padding: 30px 0;
 }
