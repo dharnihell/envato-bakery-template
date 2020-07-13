@@ -20,9 +20,10 @@ html {
     height: 35px;
 }
 .landing-text {
-	/* display: table-cell; */
-	/* text-align: center; */
-    /* vertical-align: middle; */
+    padding-top: 5em;
+	display: table-cell; 
+	text-align: center; 
+    vertical-align: middle; 
     
 }
 .landing-text h1 {
@@ -30,6 +31,16 @@ html {
 	
     line-height: 82px;
     
+}
+.navbar-toggler {
+    background-color: #01C880 !important;
+}
+/*.btn .btn-default .btn-lg {
+    background-color: #00BF7A;
+}*/
+
+.btn {
+    background-color: #01C880 !important;
 }
 .padding {
 	padding: 30px 0;
@@ -43,26 +54,13 @@ html {
     width: 100px;
 }
 
-  
-@media only screen and (min-width: 768px) {
-.logo-image {
-      width: 150px;
-}
-  
-.navbar-nav {
-      margin: auto;
-      padding-left: 10em;
-      width: 100%;
-    }
-}
-  
 .navbar-nav .nav-link {
     color: #000000 !important;
     font-weight: 500;
 }
   
 .navbar-nav .active {
-    color: #e13b63 !important;
+    color: #01C880 !important;
     font-weight: 700;
 }
 
@@ -244,6 +242,18 @@ html {
     font-family: Poppins;
     font-size: 15px;
     line-height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-image {
+          width: 150px;
+    }
+      
+    .navbar-nav {
+          margin: auto;
+          padding-left: 10em;
+          width: 100%;
+        }
 }
 
 @media screen and (max-width: 700px){
