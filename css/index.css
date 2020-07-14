@@ -7,7 +7,7 @@ html {
     color: #3a3a3a !important;
 }
   
-/*#home {
+#home {
 	background: url(../img/cupcake.jpg) no-repeat center center fixed;
 	display: table;
 	height: 600px;
@@ -15,9 +15,9 @@ html {
 	width: 100%;
     background-size: cover;
     top: 80px;
-}*/
+}
 
-.carousel-caption img{
+/*.carousel-caption img{
     padding-top: 2em;
 }
 .fa-chevron-left {
@@ -30,7 +30,7 @@ html {
     width: 38px;
     height: 38px;
     background-color: #01C880;
-}
+}*/
 #emailinput{
     height: 35px;
 }
@@ -81,8 +81,7 @@ html {
 
 
 .post{
-    /* height: 350px; */
-    
+    height: 350px;
 }
 .post1{
     flex-basis:30%;
